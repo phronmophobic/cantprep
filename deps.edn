@@ -1,0 +1,5 @@
+{:paths ["src" "resources"]
+ :deps {org.clojure/clojure {:mvn/version "1.10.3"}}
+ :aliases
+ {:myalias {:extra-deps {org.suskalo/coffi {:git/url "https://github.com/IGJoshua/coffi"
+                                            :git/sha "830bb746d19cc582fcefb1515b1f637dd5ffa1b0"}}}}}
